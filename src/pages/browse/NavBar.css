@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  display: block;
+  padding: 0.75rem;
+  margin: 0 0.75rem;
+  cursor: pointer;
+}
+
+.navbar-branch a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
+
+.navbar-search svg {
+  width: 1.5rem;
+}
+
+.navbar-background {
+  background-color: black;
+}

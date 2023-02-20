@@ -1,0 +1,57 @@
+.movie-row__img {
+  display: block;
+  padding-right: 0.75rem;
+  transition: transform 450ms;
+  cursor: pointer;
+  color: white;
+}
+
+.movie-row__img:hover {
+  transform: scale(1.08);
+}
+
+.img-poster {
+  max-height: 16rem;
+  border-radius: 0.1rem;
+}
+
+.img-backdrop {
+  max-height: 9rem;
+  border-radius: 0.1rem;
+}
+
+.movie-detail {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+  color: white;
+  background-color: #141414;
+  line-height: 1.5;
+  z-index: 2;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.movie-detail__info {
+  margin-left: 2rem;
+}
+
+.movie-detail__info > h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid grey;
+  margin-bottom: 1rem;
+}
+
+.movie-detail__info p {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.movie-detail__img {
+  display: block;
+  width: 100%;
+}
